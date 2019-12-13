@@ -4,6 +4,7 @@ This small script allows to spin up a web endpoint that can act as medico Touch 
 
 ## Usage
 
+### Server
 Prerequisites:
  - node.js
 
@@ -13,6 +14,11 @@ Prerequisites:
 4. The server responds on http://localhost:8080
 
 To stop the script use `Ctrl + c`
+
+### Touch app
+
+1. Use the URL and port of the script in the iOS settings of medico Touch
+2. Restart the app
 
 ## Configuration
 
