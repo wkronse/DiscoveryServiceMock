@@ -1,0 +1,18 @@
+{
+    "servers": [
+        {
+            "active": false,
+            "AppVersion":"1.4",
+            "Instance":"medicoTouch",
+            "BaseURL": "https://touch07.euip.devcerner.net:8169",
+            "comment": "Touch07 - RCURRENTDMO"
+        },
+        {
+            "active": true,
+            "AppVersion":"1.4",
+            "Instance":"medicoTouch",
+            "BaseURL": "https://dmobts10.euip.devcerner.net:5001",
+            "comment": "DMOBTS10 - Debugging"
+        }
+    ]
+}

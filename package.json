@@ -1,0 +1,24 @@
+{
+  "name": "discoveryservicemock",
+  "version": "0.1.0",
+  "description": "Mock service to explicitly point a medico Touch client to a selected backend service",
+  "main": "discovery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkronse/DiscoveryServiceMock.git"
+  },
+  "keywords": [
+    "medico",
+    "touch",
+    "discovery"
+  ],
+  "author": "Wolfgang Kronseder",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/wkronse/DiscoveryServiceMock/issues"
+  },
+  "homepage": "https://github.com/wkronse/DiscoveryServiceMock#readme"
+}
