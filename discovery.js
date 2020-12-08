@@ -8,7 +8,8 @@ const ServerConfigFile = "backendServers.json";
 const Port = 8080;
 
 http.createServer(function (req, res) {
-    var servers = returnActiveBackendServers(readBackendServers().servers);
+    var serverConf = readBackendServers();
+    var servers = returnActiveBackendServer(serverConf.servers,serverConf.active);
     res.writeHead(200, {'Content-Type': 'application/json'});
     res.write(JSON.stringify(servers));
     res.end();
@@ -21,12 +22,12 @@ function readBackendServers(){
 
 }
 
-function returnActiveBackendServers (serverArray){
+function returnActiveBackendServer (serverArray, activeServer){
     
     let activeServerArray = [];
     
     for (const server of serverArray) {
-        if (server.active){
+        if (server.id == activeServer){
             let item = {};
             item.AppVersion = server.AppVersion;
             item.Instance = server.Instance;

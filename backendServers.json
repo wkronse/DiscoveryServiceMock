@@ -1,18 +1,82 @@
 {
+    "active": "11",
     "servers": [
         {
-            "active": false,
+            "id": "1",
             "AppVersion":"1.4",
             "Instance":"medicoTouch",
             "BaseURL": "https://touch07.euip.devcerner.net:8169",
             "comment": "Touch07 - RCURRENTDMO"
         },
         {
-            "active": true,
+            "id": "2",
             "AppVersion":"1.4",
             "Instance":"medicoTouch",
             "BaseURL": "https://dmobts10.euip.devcerner.net:5001",
             "comment": "DMOBTS10 - Debugging"
+        },
+        {
+            "id": "3",
+            "AppVersion":"1.3",
+            "Instance":"medicoTouch",
+            "BaseURL": "https://dmobts10.euip.devcerner.net:5011",
+            "comment": "DMOBTS10 - Debugging"
+        },
+        {
+            "id": "4",
+            "AppVersion":"1.4",
+            "Instance":"medicoTouch",
+            "BaseURL": "https://touch01.euip.devcerner.net:8501",
+            "comment": "Touch01 - SNEXT - DPS"
+        },
+        {
+            "id": "5",
+            "AppVersion":"1.4",
+            "Instance":"medicoTouch",
+            "BaseURL": "https://SNEXTUI01.euip.devcerner.net:8169",
+            "comment": "SNEXTUI01 - SNEXT - DPS"
+        },
+        {
+            "id": "6",
+            "AppVersion":"1.3",
+            "Instance":"medicoTouch",
+            "BaseURL": "https://SNEXTUI01.euip.devcerner.net:8171",
+            "comment": "SNEXTUI01 - SNEXT - DPS"
+        },
+        {
+            "id": "7",
+            "AppVersion":"1.4",
+            "Instance":"medicoTouch",
+            "BaseURL": "https://touch02.euip.devcerner.net:8169",
+            "comment": "Touch02 - SNEXT - DPS"
+        },
+        {
+            "id": "8",
+            "AppVersion":"1.4",
+            "Instance":"medicoTouch",
+            "BaseURL": "https://sqaui01.euip.devcerner.net:8169",
+            "comment": "SQA - DPS"
+        },
+        {
+            "id": "9",
+            "AppVersion":"1.3",
+            "Instance":"medicoTouch",
+            "BaseURL": "https://touch07.euip.devcerner.net:8171",
+            "comment": "Touch07 - RCURRENTDMO"
+        },
+        {
+            "id": "10",
+            "AppVersion":"1.3",
+            "Instance":"medicoTouch",
+            "BaseURL": "https://sqaui01.euip.devcerner.net:8171",
+            "comment": "SQA - DPS"
+        },
+        {
+            "id": "11",
+            "AppVersion":"1.4",
+            "Instance":"medicoTouch",
+            "BaseURL": "https://193.218.11.241:8169",
+            "comment": "OpenStack - DMO"
         }
     ]
 }
